@@ -1,0 +1,12 @@
+input-source: ./sql_scripts              
+output-folder: ./transpiled_code             
+error-file-path: ./errors.log           
+catalog-name: my_catalog
+schema-name: my_schema
+skip-validation: "true"                   
+source-dialect: install-transpile         
+transpiler-config-path: Bladebridg
+debug: false
+output: text or json                          
+profile: my_profile                      
+target: dev                               
